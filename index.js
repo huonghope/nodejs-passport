@@ -40,9 +40,10 @@ app.get('/private', (req, res) => {
     if(req.isAuthenticated()){
         res.send("Welcome to private page")
     }else{
-        res.send("You need login with continue task")
+        res.send("You need login with continue")
     }
 })
+
 passport.use(new LocalStrategy(
     function(username, password, done) {
         try {
