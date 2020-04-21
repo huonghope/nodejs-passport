@@ -1,1 +1,1 @@
-# nodejs-mysql-sequelize
+# nodejs-passport
